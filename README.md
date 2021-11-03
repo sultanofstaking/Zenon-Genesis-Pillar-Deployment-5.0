@@ -39,7 +39,7 @@ Make files executable
 
 `chmod +x znn-controller`
 
-# If you are installing 5.0 as an upgrade reset your wallet, if not proceed to Enable RPC
+## If you are installing 5.0 as an upgrade reset your wallet, if not proceed to Enable RPC
 Reset your wallet (this will delete all files and folders from the Zenon data folder, including any created wallets, so ensure you have a backup)
 
 `./znn-cli reset`
