@@ -1,7 +1,10 @@
 # Zenon-Testnet-Pillar-Deployment 5.0
 ## WARNING: I created this guide as an experiment for those setting up a pillar on 5.0 The steps below are my own and not endorsed by the Zenon team. This is being done in a very agile way, MVP of an experiment I expect our cross-functional community will participate and provide feedback so we can continuously improve. Please use the issue feature for fixes here. If you need to reach me 1:1 DM me on TG @SultanOfStaking - Try at your own risk. 
 
-Pillar Node requirements
+## Pillar Node requirements
+
+I am using Digital Ocean for testnet. Feel free to use my referral code for a $100 credit https://m.do.co/c/ab6f82b1c45f
+
 Hardware, CPU >= 4 cores, RAM >= 4 GB, Storage >= 40 GB free space, >100Mbps network dedicated bandwidth
 Software, Linux distros e.g. Ubuntu 20.04 LTS/Debian 11, Recommended NTP configuration*, Recommended Watchdog service*
 (*) Included if the setup is performed using the znn-controller
