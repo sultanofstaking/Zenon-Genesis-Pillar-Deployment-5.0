@@ -1,5 +1,5 @@
 # Zenon-Testnet-Pillar-Deployment 5.0
-## WARNING: I created this guide as an experiment for those setting up a pillar for the first time on 5.0 The steps below are my own and not endorsed by the Zenon team. This is being done in a very agile way, MVP of an experiment I expect our cross-functional community will participate and provide feedback so we can continuously improve. Please use the issue feature for fixes here. If you need to reach me 1:1 DM me on TG @SultanOfStaking - Try at your own risk. 
+## WARNING: I created this guide as an experiment for those setting up a pillar on 5.0 The steps below are my own and not endorsed by the Zenon team. This is being done in a very agile way, MVP of an experiment I expect our cross-functional community will participate and provide feedback so we can continuously improve. Please use the issue feature for fixes here. If you need to reach me 1:1 DM me on TG @SultanOfStaking - Try at your own risk. 
 
 Pillar Node requirements
 Hardware, CPU >= 4 cores, RAM >= 4 GB, Storage >= 40 GB free space, >100Mbps network dedicated bandwidth
@@ -39,7 +39,7 @@ Make files executable
 
 `chmod +x znn-controller`
 
-#If you are installing 5.0 as an upgrade reset your wallet, if not proceed to Enable RPC
+# If you are installing 5.0 as an upgrade reset your wallet, if not proceed to Enable RPC
 Reset your wallet (this will delete all files and folders from the Zenon data folder, including any created wallets, so ensure you have a backup)
 
 `./znn-cli reset`
@@ -52,7 +52,7 @@ Start snnd
 
 `./znn-cli start znnd`
 
-#Deploy Pillar or Sentinel
+# Deploy Pillar or Sentinel
 
 `./znn-controller`
 
