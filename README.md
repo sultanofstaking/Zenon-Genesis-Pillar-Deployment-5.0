@@ -34,14 +34,6 @@ Ensure all was extracted ok
 
 You should see znn-cli, znnd, znn-controller, and corresponding argon2 and powlinks libraries
 
-Make files executable
-
-`chmod +x znnd`
-
-`chmod +x znn-cli`
-
-`chmod +x znn-controller`
-
 ## If you are installing 5.0 as an upgrade reset your wallet, if not proceed to Enable RPC
 Reset your wallet (this will delete all files and folders from the Zenon data folder, including any created wallets, so ensure you have a backup)
 
