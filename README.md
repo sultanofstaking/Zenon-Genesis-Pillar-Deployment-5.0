@@ -1,17 +1,18 @@
 # Zenon-Testnet-Pillar-Deployment 5.0
 ## WARNING: I created this guide as an experiment for those setting up a pillar on 5.0 The steps below are my own and not endorsed by the Zenon team. This is being done in a very agile way, MVP of an experiment I expect our cross-functional community will participate and provide feedback so we can continuously improve. Please use the issue feature for fixes here. If you need to reach me 1:1 DM me on TG @SultanOfStaking - Try at your own risk. 
 
+## A few notes to start...
+1. Treat technical, security, and wallet address strategy like it will carry over into alphanet (because it may)
+2. Install the bundle from root as default data paths are set up that way
+3. I am using Digital Ocean for testnet. Feel free to use my referral code for a $100 credit https://m.do.co/c/ab6f82b1c45f
+
 ## Pillar Node requirements
-
-Note 1: Treat technical, security, and wallet strategy like it will carry over into alphanet (because it may)
-
-Note 2: Install the bundle from root as default data paths are set up that way.
-
-Note 3: I am using Digital Ocean for testnet. Feel free to use my referral code for a $100 credit https://m.do.co/c/ab6f82b1c45f
 
 Hardware, CPU >= 4 cores, RAM >= 4 GB, Storage >= 40 GB free space, >100Mbps network dedicated bandwidth
 Software, Linux distros e.g. Ubuntu 20.04 LTS/Debian 11, Recommended NTP configuration*, Recommended Watchdog service*
 (*) Included if the setup is performed using the znn-controller
+
+You will also need ZNN and QSR to spawn your pillar. If you are spawning a genesis pillar you will need 150k tQSR in the address you are planning to use as the controller.
 
 ## Pillar Install (fresh install on new VPS)
 Install prereqs
@@ -55,7 +56,7 @@ Start znnd
 
 `./znn-controller`
 
-Select 1 to deploy the pillar, this will spit out a producer address. From here continue to register the pillar in syrius. Insert the address from the step above in the producer address section. 
+Select 1 to deploy the pillar, this will spit out a producer address (save this as you will need it in syrius). From here continue to register the pillar in syrius. Insert the address from the step above in the producer address section. You will also need to select reward distribution percentages. This can be adjusted later so dont overthink it.
 
 Note: If you want to collect rewards in another address in syrius simply select "update pillar" on the pillar tab and imput the address.
 
