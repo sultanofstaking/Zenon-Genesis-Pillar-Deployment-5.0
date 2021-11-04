@@ -3,7 +3,11 @@
 
 ## Pillar Node requirements
 
-I am using Digital Ocean for testnet. Feel free to use my referral code for a $100 credit https://m.do.co/c/ab6f82b1c45f
+Note 1: Treat technical, security, and wallet strategy like it will carry over into alphanet (because it may)
+
+Note 2: Install the bundle from root as default data paths are set up that way.
+
+Note 3: I am using Digital Ocean for testnet. Feel free to use my referral code for a $100 credit https://m.do.co/c/ab6f82b1c45f
 
 Hardware, CPU >= 4 cores, RAM >= 4 GB, Storage >= 40 GB free space, >100Mbps network dedicated bandwidth
 Software, Linux distros e.g. Ubuntu 20.04 LTS/Debian 11, Recommended NTP configuration*, Recommended Watchdog service*
@@ -34,7 +38,7 @@ Ensure all was extracted ok
 
 You should see znn-cli, znnd, znn-controller, and corresponding argon2 and powlinks libraries
 
-## If you are installing 5.0 as an upgrade reset your wallet, if not proceed to Enable RPC
+## If you are installing 5.0 as an upgrade from 4.0 reset your wallet, if not proceed to Enable RPC
 Reset your wallet (this will delete all files and folders from the Zenon data folder, including any created wallets, so ensure you have a backup)
 
 `./znn-cli reset`
@@ -43,13 +47,17 @@ Enable RPC
 
 `./znn-cli enableRPC`
 
-Start snnd
+Start znnd
 
 `./znn-cli start znnd`
 
 # Deploy Pillar or Sentinel
 
 `./znn-controller`
+
+Select 1 to deploy the pillar, this will spit out a producer address. From here continue to register the pillar in syrius. Insert the address from the step above in the producer address section. 
+
+Note: If you want to collect rewards in another address in syrius simply select "update pillar" on the pillar tab and imput the address.
 
 ## If you found helpful no need to donate, but delegation to SultanOfStaking pillar would be appreciated https://explorer.znn.space/pillar/z1qpgdtn89u9365jr7ltdxu29fy52pnzwe4fl7zc
 
