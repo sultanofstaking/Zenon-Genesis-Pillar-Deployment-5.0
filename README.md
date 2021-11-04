@@ -15,6 +15,10 @@ Software, Linux distros e.g. Ubuntu 20.04 LTS/Debian 11, Recommended NTP configu
 You will also need ZNN and QSR to spawn your pillar. If you are spawning a genesis pillar you will need 150k tQSR in the address you are planning to use as the controller.
 
 ## Pillar Install (fresh install on new VPS)
+Start from root - if you are not sure enter the line below
+
+`sudo su - root`
+
 Install prereqs
 
 `sudo apt install unzip`
