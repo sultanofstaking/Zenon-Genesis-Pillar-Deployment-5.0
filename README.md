@@ -62,4 +62,4 @@ Note: If you want to collect rewards in another address in syrius simply select 
 
 ## If you found helpful no need to donate, but delegation to SultanOfStaking pillar would be appreciated https://explorer.znn.space/pillar/z1qpgdtn89u9365jr7ltdxu29fy52pnzwe4fl7zc
 
-## If you are getting errors in your logs go here https://github.com/sultanofstaking/Zenon-Testnet-Node-Tips
+## If you want to pull logs to diagnose errors go here https://github.com/sultanofstaking/Zenon-Testnet-Node-Tips
