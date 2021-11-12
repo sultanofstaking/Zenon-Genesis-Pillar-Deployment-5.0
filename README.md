@@ -14,6 +14,8 @@ Software, Linux distros e.g. Ubuntu 20.04 LTS/Debian 11, Recommended NTP configu
 
 You will also need ZNN and QSR to spawn your pillar. If you are spawning a genesis pillar you will need 150k tQSR in the address you are planning to use as the controller.
 
+**Ensure any address you are interacting with in syrius has plasma fused otherwise you risk needing to wait for plasma to be generated.**
+
 ## Pillar Install (fresh install on new VPS)
 Start from root - if you are not sure enter the line below
 
@@ -60,7 +62,9 @@ Start znnd
 
 `./znn-controller`
 
-Select 1 to deploy the pillar, this will spit out a producer address (save this as you will need it in syrius). From here continue to register the pillar in syrius. Insert the address from the step above in the producer address section. You will also need to select reward distribution percentages. This can be adjusted later so dont overthink it.
+Select 1 to deploy the pillar, this will spit out a producer address (save this as you will need it in syrius). From here continue to register the pillar in syrius via the pillar tab > spawn pillar. Insert the address from the step above in the producer address section. You will also need to select reward distribution percentages. This can be adjusted later so dont overthink it.
+
+Again, use an address strategy you are comfortable with in alphanet e.g., perhaps a transaction address, rewards address, and controller address. If you are registering a legacy pillar / genesis pillar syrius will have an option for this. You will need your swp file as that holds the pillar addresses from legacy wallet.
 
 Note: If you want to collect rewards in another address in syrius simply select "update pillar" on the pillar tab and imput the address.
 
