@@ -1,20 +1,21 @@
-# Zenon-Testnet-Pillar-Deployment 5.0
-## WARNING: I created this guide as an experiment for those setting up a pillar on 5.0 The steps below are my own and not endorsed by the Zenon team. This is being done in a very agile way, MVP of an experiment I expect our cross-functional community will participate and provide feedback so we can continuously improve. Please use the issue feature for fixes here. If you need to reach me 1:1 DM me on TG @SultanOfStaking - Try at your own risk. 
+# Zenon-Genesis-Pillar-Deployment 5.0
 
-## A few notes to start...
-1. Treat technical, security, and wallet address strategy like it will carry over into alphanet (because it may)
-2. Install the bundle from root as default data paths are set up that way
-3. I am using Digital Ocean for testnet. Feel free to use my referral code for a $100 credit https://m.do.co/c/ab6f82b1c45f
+## WARNING: I created this guide as an experiment for those setting up a genesis pillar on 5.0 The steps below are my own and not endorsed by the Zenon team. This is being done in a very agile way, MVP of an experiment I expect our cross-functional community will participate and provide feedback so we can continuously improve. Please use the issue feature for fixes here. If you need to reach me 1:1 DM me on TG @SultanOfStaking - Try at your own risk. 
 
 ## Pillar Node requirements
 
 Hardware, CPU >= 4 cores, RAM >= 4 GB, Storage >= 40 GB free space, >100Mbps network dedicated bandwidth
-Software, Linux distros e.g. Ubuntu 20.04 LTS/Debian 11, Recommended NTP configuration*, Recommended Watchdog service*
-(*) Included if the setup is performed using the znn-controller
+Software, Linux distros e.g. Ubuntu 20.04 LTS/Debian 11 (recommend ubuntu 20.04)
 
-You will also need ZNN and QSR to spawn your pillar. If you are spawning a genesis pillar you will need 150k tQSR in the address you are planning to use as the controller.
+Also Recommended NTP configuration*, Recommended Watchdog service* **These are Included if the setup is performed using the znn-controller**
 
-**Ensure any address you are interacting with in syrius has plasma fused otherwise you risk needing to wait for plasma to be generated.**
+You will also need 15k tZNN and 150k tQSR in the syrius address you are using to spawn your pillar. You can get this from the faucet on TG (https://t.me/znnfaucet_bot). If you are short tQSR because you used it for plasma then ask for someone to send you more in the main channel.
+
+## A few notes before you start...
+1. Treat technical, security, and wallet address strategy like it will carry over into alphanet
+2. Install the bundle from root as default data paths are set up that way
+3. Ensure you have a swp file from your legacy wallet that took place after the snapshot (if you are not sure, download a new swp file)
+4. Ensure any address you are interacting with in syrius has plasma fused otherwise you risk needing to wait for plasma to be generated.
 
 ## Pillar Install (fresh install on new VPS)
 Start from root - if you are not sure enter the line below
@@ -44,11 +45,6 @@ Ensure all was extracted ok
 `ls -lah`
 
 You should see znn-cli, znnd, znn-controller, and corresponding argon2 and powlinks libraries
-
-## If you are installing 5.0 as an upgrade from 4.0 reset your wallet, if not proceed to Enable RPC
-Reset your wallet (this will delete all files and folders from the Zenon data folder, including any created wallets, so ensure you have a backup)
-
-`./znn-cli reset`
 
 Enable RPC
 
