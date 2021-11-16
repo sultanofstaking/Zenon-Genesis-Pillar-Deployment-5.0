@@ -58,11 +58,9 @@ Start znnd
 
 `./znn-controller`
 
-Select 1 to deploy the pillar, this will spit out a producer address (save this as you will need it in syrius). From here continue to register the pillar in syrius via the pillar tab > spawn pillar. Insert the address from the step above in the producer address section. You will also need to select reward distribution percentages. This can be adjusted later so dont overthink it.
+Select 1 to deploy the pillar, this will spit out a producer address (save this as you will need it in syrius). From here continue to register the pillar in syrius via the pillar tab > spawn pillar. Be sure to select genesis pillar. Syruis will ask you for your swp file then show you the pillar address(es) eligible to select as genesis pillars. Insert the producer address from the VPS. You will also need to select reward distribution percentages. This can be adjusted later so dont overthink it.
 
-Again, use an address strategy you are comfortable with in alphanet e.g., perhaps a transaction address, rewards address, and controller address. If you are registering a legacy pillar / genesis pillar syrius will have an option for this. You will need your swp file as that holds the pillar addresses from legacy wallet.
-
-Note: If you want to collect rewards in another address in syrius simply select "update pillar" on the pillar tab and imput the address.
+Again, use an address strategy you are comfortable with in alphanet e.g., perhaps a transaction address, rewards address, and controller address. 
 
 ## If you found helpful no need to donate, but delegation to SultanOfStaking pillar would be appreciated https://explorer.znn.space/pillar/z1qpgdtn89u9365jr7ltdxu29fy52pnzwe4fl7zc
 
