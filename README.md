@@ -32,7 +32,7 @@ Install prereqs
 
 Download bundle
 
-`cd ~ && wget https://testnet.znn.space/downloads/v5.0.0/znn-public-incentivized-testnet-bundle-linux-amd64.zip?v=5.0.0`
+`cd ~ && wget https://github.com/zenon-network/znn-bundle/releases/download/v0.0.1-alphanet/znn-alphanet-bundle-linux-amd64.zip`
 
 Check testnet Quickstart https://testnet.znn.space/#!quickstart.md on how to verify bundle
 
