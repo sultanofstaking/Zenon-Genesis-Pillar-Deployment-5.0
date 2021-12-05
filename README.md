@@ -1,4 +1,4 @@
-# Zenon-Genesis-Pillar-Deployment 5.0
+# Zenon-Pillar-Deployment
 
 **WARNING: I created this guide as an experiment for those setting up a pillar on alphanet. The steps below are my own and not endorsed by the Zenon team. This is being done in a very agile way, MVP of an experiment I expect our cross-functional community will participate and provide feedback so we can continuously improve. Please use the issue feature for fixes here. If you need to reach me 1:1 DM me on TG @SultanOfStaking - Try at your own risk.**
 
