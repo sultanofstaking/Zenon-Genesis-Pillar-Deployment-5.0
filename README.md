@@ -58,7 +58,7 @@ Start znnd
 
 `./znn-controller`
 
-Select deploy pillar, this will spit out a producer address (save this as you will need it in syrius). From here continue to register the pillar in syrius via the pillar tab > spawn pillar. If you select genesis pillar Syruis will ask you for your wallet.dat file then show you the pillar address(es) eligible to select as genesis pillars. Insert the producer address from the VPS when prompted. You will also need to select reward distribution percentages. This can be adjusted later so dont overthink it.
+From here follow the steps in the team guide here https://github.com/zenon-network/znn-bundle/blob/master/PILLARS.md, this will spit out a producer address (save this as you will need it in syrius). From here continue to register the pillar in syrius via the pillar tab > spawn pillar. If you select genesis pillar Syruis will ask you for your wallet.dat file then show you the pillar address(es) eligible to select as genesis pillars. Insert the producer address from the VPS when prompted. You will also need to select reward distribution percentages. This can be adjusted later so dont overthink it.
 
 After you have set your pillar up pull logs and ensure your pillar is inserting and producing momentums. To learn how to pull logs and to diagnose errors go here https://github.com/sultanofstaking/Zenon-Testnet-Node-Tips
 
