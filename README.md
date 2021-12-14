@@ -46,14 +46,6 @@ Ensure all was extracted ok
 
 You should see znn-cli, znnd, znn-controller, and corresponding argon2 and powlinks libraries
 
-Enable RPC
-
-`./znn-cli enableRPC`
-
-Start znnd
-
-`./znn-cli start znnd`
-
 # Deploy Pillar 
 
 `./znn-controller`
