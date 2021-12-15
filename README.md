@@ -38,7 +38,7 @@ Check testnet Quickstart https://testnet.znn.space/#!quickstart.md on how to ver
 
 Extract package
 
-`unzip zunzip znn-alphanet-bundle-linux-amd64.zip`
+`unzip znn-alphanet-bundle-linux-amd64.zip`
 
 Ensure all was extracted ok
 
