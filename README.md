@@ -42,7 +42,7 @@ Extract package
 
 Ensure all was extracted ok
 
-`ls -lah`
+`ls -lha`
 
 You should see znn-cli, znnd, znn-controller, and corresponding argon2 and powlinks libraries
 
