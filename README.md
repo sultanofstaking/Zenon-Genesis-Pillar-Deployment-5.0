@@ -46,6 +46,10 @@ Ensure all was extracted ok
 
 You should see znn-cli, znnd, znn-controller, and corresponding argon2 and powlinks libraries
 
+# Update Controller
+As of March 29th v0.0.3 is the latest controller
+`wget https://github.com/zenon-network/znn_controller_dart/releases/download/v0.0.3-alphanet/znn-controller-linux-amd64.zip && unzip -o znn-controller-linux-amd64.zip`
+
 # Deploy Pillar 
 
 `./znn-controller`
