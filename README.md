@@ -30,25 +30,11 @@ Install prereqs
 
 `sudo apt install gnupg`
 
-Download bundle
-
-`cd ~ && wget https://github.com/zenon-network/znn-bundle/releases/download/v0.0.1-alphanet/znn-alphanet-bundle-linux-amd64.zip`
-
-Check testnet Quickstart https://testnet.znn.space/#!quickstart.md on how to verify bundle
-
-Extract package
-
-`unzip znn-alphanet-bundle-linux-amd64.zip`
-
-Ensure all was extracted ok
-
-`ls -lha`
-
-You should see znn-cli, znnd, znn-controller, and corresponding argon2 and powlinks libraries
-
-# Update Controller
+# Download Controller
 As of April 2023 v0.0.4 is the latest controller
 `wget https://github.com/zenon-network/znn_controller_dart/releases/download/v0.0.4-alpha/znn_controller-linux-x86_64.zip && unzip -o znn_controller-linux-x86_64.zip`
+
+You can verify you are downloading the latest controller by checking here - https://github.com/zenon-network/znn_controller_dart/releases
 
 # Deploy Pillar 
 
